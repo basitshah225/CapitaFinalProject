@@ -15,6 +15,8 @@ class Word {
     
     show() {
       fill(this.wordColour);
+      strokeWeight(4);
+      stroke(0,0,255);
       textAlign(CENTER, TOP);
       textSize(32);
       text(this.word, this.x, this.y);
